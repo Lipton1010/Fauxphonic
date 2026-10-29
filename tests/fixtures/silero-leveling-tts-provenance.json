@@ -1,0 +1,7 @@
+﻿{
+    "source":  "New app-generated synthetic test speech; no user recording copied.",
+    "voice":  "Microsoft David Desktop - English (United States)",
+    "created":  "2026-09-26T02:06:01.5830059-04:00",
+    "generator":  "Windows SAPI.SpVoice via Windows PowerShell 5.1 STA",
+    "text":  "This is a synthetic test recording for the Fauxphonic audio application. A quiet phrase and a louder phrase should become easier to follow. The pauses must stay in place, and the original recording must remain unchanged."
+}

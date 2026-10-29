@@ -1,0 +1,236 @@
+[
+  {
+    "name": "altgraph",
+    "version": "0.17.5",
+    "license": "MIT",
+    "license_files": [
+      "docs\\licenses\\altgraph\\altgraph-0.17.5.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "license": "MIT-0",
+    "license_files": [
+      "docs\\licenses\\cffi\\cffi-2.1.1.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "license": null,
+    "license_files": [
+      "docs\\licenses\\colorama\\colorama-0.4.6.dist-info\\licenses\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "flatbuffers",
+    "version": "25.12.19",
+    "license": "Apache 2.0",
+    "license_files": []
+  },
+  {
+    "name": "iniconfig",
+    "version": "2.3.0",
+    "license": "MIT",
+    "license_files": [
+      "docs\\licenses\\iniconfig\\iniconfig-2.3.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.3",
+    "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "license_files": [
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\LICENSE.txt",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\include\\numpy\\libdivide\\LICENSE.txt",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\common\\pythoncapi-compat\\COPYING",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\highway\\LICENSE",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\multiarray\\dragon4_LICENSE.txt",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\npysort\\x86-simd-sort\\LICENSE.md",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\umath\\svml\\LICENSE",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\fft\\pocketfft\\LICENSE.md",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\linalg\\lapack_lite\\LICENSE.txt",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\ma\\LICENSE",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\LICENSE.md",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\distributions\\LICENSE.md",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\mt19937\\LICENSE.md",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\pcg64\\LICENSE.md",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\philox\\LICENSE.md",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\sfc64\\LICENSE.md",
+      "docs\\licenses\\numpy\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\splitmix64\\LICENSE.md",
+      "docs\\licenses\\numpy\\numpy\\_core\\include\\numpy\\random\\LICENSE.txt",
+      "docs\\licenses\\numpy\\numpy\\ma\\LICENSE",
+      "docs\\licenses\\numpy\\numpy\\random\\LICENSE.md"
+    ]
+  },
+  {
+    "name": "onnxruntime",
+    "version": "1.30.0",
+    "license": "MIT License",
+    "license_files": [
+      "docs\\licenses\\onnxruntime\\onnxruntime\\LICENSE"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "license_files": [
+      "docs\\licenses\\packaging\\packaging-26.3.dist-info\\licenses\\LICENSE",
+      "docs\\licenses\\packaging\\packaging-26.3.dist-info\\licenses\\LICENSE.APACHE",
+      "docs\\licenses\\packaging\\packaging-26.3.dist-info\\licenses\\LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "pefile",
+    "version": "2024.8.26",
+    "license": "MIT",
+    "license_files": [
+      "docs\\licenses\\pefile\\pefile-2024.8.26.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "pip",
+    "version": "25.0.1",
+    "license": "MIT",
+    "license_files": [
+      "docs\\licenses\\pip\\pip-25.0.1.dist-info\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "pluggy",
+    "version": "1.6.0",
+    "license": "MIT",
+    "license_files": [
+      "docs\\licenses\\pluggy\\pluggy-1.6.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "protobuf",
+    "version": "7.36.2",
+    "license": "3-Clause BSD License",
+    "license_files": [
+      "docs\\licenses\\protobuf\\protobuf-7.36.2.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "docs\\licenses\\psutil\\psutil-7.2.2.dist-info\\LICENSE"
+    ]
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "docs\\licenses\\pycparser\\pycparser-3.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "Pygments",
+    "version": "2.21.0",
+    "license": "BSD-2-Clause",
+    "license_files": [
+      "docs\\licenses\\Pygments\\pygments-2.21.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "pyinstaller",
+    "version": "6.22.3",
+    "license": "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)",
+    "license_files": [
+      "docs\\licenses\\pyinstaller\\pyinstaller-6.22.3.dist-info\\licenses\\COPYING.txt"
+    ]
+  },
+  {
+    "name": "pyinstaller-hooks-contrib",
+    "version": "2026.7",
+    "license": null,
+    "license_files": [
+      "docs\\licenses\\pyinstaller-hooks-contrib\\pyinstaller_hooks_contrib-2026.7.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "PySide6",
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "license_files": [
+      "docs\\licenses\\PySide6\\pyside6-6.11.2.dist-info\\licenses\\LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "PySide6_Addons",
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "license_files": [
+      "docs\\licenses\\PySide6_Addons\\pyside6_addons-6.11.2.dist-info\\licenses\\LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "PySide6_Essentials",
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "license_files": [
+      "docs\\licenses\\PySide6_Essentials\\pyside6_essentials-6.11.2.dist-info\\licenses\\LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "pytest",
+    "version": "9.1.1",
+    "license": "MIT",
+    "license_files": [
+      "docs\\licenses\\pytest\\pytest-9.1.1.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "pywin32-ctypes",
+    "version": "0.2.3",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "docs\\licenses\\pywin32-ctypes\\pywin32_ctypes-0.2.3.dist-info\\LICENSE.txt"
+    ]
+  },
+  {
+    "name": "setuptools",
+    "version": "84.0.0",
+    "license": "MIT",
+    "license_files": [
+      "docs\\licenses\\setuptools\\setuptools-84.0.0.dist-info\\licenses\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\autocommand-2.2.2.dist-info\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\backports.tarfile-1.2.0.dist-info\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\jaraco.text-4.0.0.dist-info\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\jaraco_context-6.1.0.dist-info\\licenses\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\jaraco_functools-4.4.0.dist-info\\licenses\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\more_itertools-10.8.0.dist-info\\licenses\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\packaging-26.0.dist-info\\licenses\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\packaging-26.0.dist-info\\licenses\\LICENSE.APACHE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\packaging-26.0.dist-info\\licenses\\LICENSE.BSD",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\platformdirs-4.4.0.dist-info\\licenses\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\tomli-2.4.0.dist-info\\licenses\\LICENSE",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\wheel-0.46.3.dist-info\\licenses\\LICENSE.txt",
+      "docs\\licenses\\setuptools\\setuptools\\_vendor\\zipp-3.23.0.dist-info\\licenses\\LICENSE"
+    ]
+  },
+  {
+    "name": "shiboken6",
+    "version": "6.11.2",
+    "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+    "license_files": [
+      "docs\\licenses\\shiboken6\\shiboken6-6.11.2.dist-info\\licenses\\LicenseRef-Qt-Commercial.txt"
+    ]
+  },
+  {
+    "name": "soundfile",
+    "version": "0.13.1",
+    "license": "BSD 3-Clause License",
+    "license_files": [
+      "docs\\licenses\\soundfile\\_soundfile_data\\COPYING",
+      "docs\\licenses\\soundfile\\soundfile-0.13.1.dist-info\\LICENSE"
+    ]
+  }
+]

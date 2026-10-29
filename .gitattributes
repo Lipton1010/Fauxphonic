@@ -1,0 +1,7 @@
+* text=auto
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.vbs text eol=crlf
+docs/licenses/** -text -whitespace
+tools/LICENSE -text -whitespace
+local_audio_studio_codex_plan.md -text -whitespace

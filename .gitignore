@@ -1,0 +1,70 @@
+.venv/
+.cache/
+.test-runs/
+.build-runs/
+graft/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+# Disposable local verification directories (never source or recordings).
+pytest-*/
+pytest_*/
+.pytest-tmp-*/
+.pytest-run.txt
+agent-smoke/
+*.egg-info/
+build/
+dist/
+tools/*.exe
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.opus
+*.onnx
+*.pt
+*.pth
+*.sqlite*
+*.log
+evidence/local/
+!tests/fixtures/silero-leveling-tts.wav
+
+# Local project state, experiments and generated validation evidence.
+/PROJECT_STATE.md
+/audit2/
+/audit_repro/
+/evidence/
+/installer/README-recipient.txt
+
+# Workstation configuration and secrets.
+.env
+.env.*
+!.env.example
+
+# Local credentials, private configuration and recoverable backups.
+.agents/
+.codex/
+.aws/
+.ssh/
+.backups/
+backups/
+secrets/
+credentials*.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.bak
+*.orig
+*.tmp
+*.dmp
+*.pyc
+*.pyd
+*.dll
+# Local packaging remnants and user output folders.
+/Fauxphonic/
+/recordings/
+/exports/
+
+# Preserve third-party license notices even when names resemble test output.
+!/docs/licenses/**

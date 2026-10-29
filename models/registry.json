@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "models": [
+    {
+      "id": "fastenhancer-m-48k",
+      "repository": "https://github.com/aask1357/fastenhancer",
+      "source_revision": "f85223bd546b27f39dc0744e0310dcd246f750a4",
+      "release": "onnx-48khz-v1",
+      "artifact": "fastenhancer_m.onnx",
+      "sha256": "c7da800810b583f4734d757c6e14d235f3eec81476121b595743e5866b66efa2",
+      "size_bytes": 2101876,
+      "sample_rate": 48000,
+      "channels": [
+        1
+      ],
+      "dtype": "float32",
+      "device": "CPU",
+      "hop": 320,
+      "n_fft": 1024,
+      "delay_samples": 704,
+      "stateful": true,
+      "padding": "zero right padding, flush until source length plus delay",
+      "length_policy": "discard delay once and retain exact input frames",
+      "code_license": "MIT",
+      "weight_license": "not separately stated; promotion pending clarification",
+      "desktop_enabled": false,
+      "evidence": "evidence/model-probe.json"
+    },
+    {
+      "id": "fastenhancer-s-48k",
+      "repository": "https://github.com/aask1357/fastenhancer",
+      "source_revision": "f85223bd546b27f39dc0744e0310dcd246f750a4",
+      "release": "onnx-48khz-v1",
+      "artifact": "fastenhancer_s.onnx",
+      "sha256": "f04ece2beed330da367264c54cedded62f65a117fbde5c005d3a88fc796d0ba3",
+      "size_bytes": 875885,
+      "sample_rate": 48000,
+      "channels": [
+        1
+      ],
+      "dtype": "float32",
+      "device": "CPU",
+      "hop": 512,
+      "n_fft": 1024,
+      "delay_samples": 512,
+      "stateful": true,
+      "padding": "zero right padding, flush until source length plus delay",
+      "length_policy": "discard delay once and retain exact input frames",
+      "code_license": "MIT",
+      "weight_license": "not separately stated; promotion pending clarification",
+      "desktop_enabled": false,
+      "evidence": "evidence/model-probe.json"
+    }
+  ]
+}

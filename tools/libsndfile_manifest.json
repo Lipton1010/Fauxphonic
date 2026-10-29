@@ -1,0 +1,16 @@
+{
+  "version": "libsndfile 1.2.2 controlled project build",
+  "license": "LGPL-2.1-or-later",
+  "dll_sha256": "65cfe7470f9934dd47b033192b4655669d6ccfe1c3f0ae717814a33fe18d4ea9",
+  "dll_size": 2789351,
+  "imports": ["ADVAPI32.dll", "KERNEL32.dll", "msvcrt.dll"],
+  "mpeg_support": false,
+  "static_dependencies": {
+    "libogg": {"version": "1.3.5", "license": "BSD-3-Clause"},
+    "libvorbis": {"version": "1.3.7", "license": "BSD-3-Clause"},
+    "FLAC": {"version": "1.4.3", "license": "BSD-3-Clause"},
+    "Opus": {"version": "1.5.2", "license": "BSD-3-Clause"}
+  },
+  "source_manifest": "tools/source_manifest.json",
+  "build_recipe": "scripts/build_sndfile.ps1"
+}

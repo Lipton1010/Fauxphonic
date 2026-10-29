@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "synthetic": [
+    {"generator": "tests/test_engine.py", "content": "Tones, gain changes, silence, impulses, noise, linked stereo, 44.1 kHz duration", "provenance": "Project-generated mathematical signals; no external recordings"},
+    {"generator": "scripts/model_probe.py", "content": "12.002854-second tone/noise pair with endpoint impulses", "provenance": "Project-generated; not a speech/listening test"},
+    {"generator": "scripts/benchmark.py", "content": "Two 60-second and two three-hour mono tones, explicit seven-second offset", "provenance": "FFmpeg lavfi synthesis; no external recordings"}
+  ],
+  "human_recordings": [],
+  "listening_status": "Pending licensed/consented representative speech and human evaluation"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Silero VAD",
+  "version": "v6.2.1",
+  "commit": "7e30209a3e901f9842f81b225f3e93d8199902b1",
+  "license": "MIT",
+  "model": "silero_vad.onnx",
+  "model_sha256": "1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3",
+  "license_file": "silero-vad-LICENSE",
+  "license_sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b",
+  "source": "https://github.com/snakers4/silero-vad/tree/7e30209a3e901f9842f81b225f3e93d8199902b1",
+  "model_source": "https://raw.githubusercontent.com/snakers4/silero-vad/7e30209a3e901f9842f81b225f3e93d8199902b1/src/silero_vad/data/silero_vad.onnx",
+  "runtime": "onnxruntime 1.30.0",
+  "provider": "CPUExecutionProvider",
+  "input": "512 samples at 16 kHz plus 64 samples of stateful context",
+  "output": "one speech probability and recurrent state per window"
+}

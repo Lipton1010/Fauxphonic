@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Fauxphonic waveform F app icon</title>
+  <rect x="8" y="8" width="240" height="240" rx="54" fill="#102A38"/>
+  <path fill="#51D8C4" d="M80 204A16 16 0 0 1 64 188V80A24 24 0 0 1 88 56H184A16 16 0 0 1 184 88H104A8 8 0 0 0 96 96V188A16 16 0 0 1 80 204Z"/>
+  <path fill="#E9BB70" d="M96 130H104.5L116.35 112.24A14 14 0 0 1 139.65 112.24L151.5 130H168A14 14 0 0 1 168 158H144A14 14 0 0 1 132.35 151.76L128 145.23L123.65 151.76A14 14 0 0 1 112 158H96Z"/>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "version": "FFmpeg 8.1.1 project-built minimal LGPL configuration with native LAME and Opus delivery encoders",
+  "source_archive_url": "https://ffmpeg.org/releases/ffmpeg-8.1.1.tar.xz",
+  "source_archive_sha256": "b6863adde98898f42602017462871b5f6333e65aec803fdd7a6308639c52edf3",
+  "source_manifest": "tools/source_manifest.json",
+  "license": "LGPL-2.1-or-later",
+  "external_libraries": [
+    {"name": "libmp3lame", "version": "4.0", "license": "LGPL-2.0-or-later", "static": true},
+    {"name": "libopus", "version": "1.5.2", "license": "BSD-3-Clause", "static": true}
+  ],
+  "files": {
+    "ffmpeg.exe": "5fd20cbcae78d26118ffd57bf8b607b6c8623669959d838ef929487355c3acdc",
+    "ffprobe.exe": "c15c8408484ba5e660e64d47e9309e445235caa9931bee0791858613233e8561"
+  }
+}
