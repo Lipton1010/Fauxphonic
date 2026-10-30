@@ -1,5 +1,11 @@
 #ifndef AppVersion
-  #define AppVersion "0.2.2"
+  #define AppVersion "0.2.3"
+#endif
+#ifndef BundleDir
+  #define BundleDir "..\dist\Fauxphonic"
+#endif
+#ifndef InstallerDir
+  #define InstallerDir "..\dist\installers"
 #endif
 
 [Setup]
@@ -13,7 +19,7 @@ PrivilegesRequired=lowest
 ArchitecturesAllowed=x64compatible and not arm64
 ArchitecturesInstallIn64BitMode=x64compatible
 MinVersion=10.0.17763
-OutputDir=..\dist\installers
+OutputDir={#InstallerDir}
 OutputBaseFilename=Fauxphonic-{#AppVersion}-Setup
 SetupIconFile=..\assets\fauxphonic.ico
 Compression=lzma2
@@ -37,7 +43,7 @@ InfoBeforeFile=README.txt
 Name: "desktopicon"; Description: "Create a desktop shortcut"; GroupDescription: "Shortcuts:"
 
 [Files]
-Source: "..\dist\Fauxphonic\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#BundleDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\Fauxphonic"; Filename: "{app}\Fauxphonic.exe"; WorkingDir: "{app}"; IconFilename: "{app}\Fauxphonic.exe"; AppUserModelID: "Fauxphonic.LocalAudioStudio"

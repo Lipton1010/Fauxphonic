@@ -98,6 +98,20 @@ def test_native_import_analysis_worker_render_save_playback(tmp_path, monkeypatc
     app.processEvents()
 
 
+def test_analysis_uses_selected_data_directory(tmp_path, monkeypatch):
+    app = QApplication.instance() or QApplication([])
+    source = tmp_path / "source.wav"
+    sf.write(source, np.zeros(48000), 48000)
+    window = Window(tmp_path)
+    window.add_paths([source])
+    requests = []
+    monkeypatch.setattr(window, "launch", requests.append)
+    window.analyze_selected()
+    assert Path(requests[0]["scratch_dir"]) == tmp_path / "analysis"
+    window.close()
+    app.processEvents()
+
+
 @pytest.mark.parametrize("preset", ["natural-speech", "strong-cleanup", "multitrack"])
 def test_cleanup_blocks_export_and_preview_without_a_speech_track(tmp_path, monkeypatch, preset):
     app = QApplication.instance() or QApplication([])

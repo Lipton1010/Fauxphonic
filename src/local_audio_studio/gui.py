@@ -22,7 +22,7 @@ from .contracts import GainPoint, Preset, Project, RATE, Track
 from .desktop_status import CapabilityDialog
 from .exports import FORMATS, output_paths
 from .jobs import Jobs
-from .lifecycle import analysis_scratch_root, sweep_analysis_scratch, sweep_preview_files, sweep_requests
+from .lifecycle import sweep_analysis_scratch, sweep_preview_files, sweep_requests
 from .presets import make_preset
 from .windows_job import hold_application_mutex
 
@@ -273,7 +273,7 @@ class Window(QMainWindow):
         self.data_dir = Path(data_dir)
         self.metadata = {}
         sweep_requests(self.data_dir)
-        sweep_analysis_scratch(analysis_scratch_root())
+        sweep_analysis_scratch(self.data_dir / "analysis")
         sweep_preview_files(self.data_dir)
         self.jobs = Jobs(self.data_dir / "jobs.sqlite")
         self.jobs.recover()
@@ -1096,7 +1096,7 @@ class Window(QMainWindow):
                 raise ValueError("Select a source track.")
             track = project.tracks[row]
             self.launch({"action": "analyze", "path": track.path, "stream": track.stream,
-                         "scratch_dir": str(analysis_scratch_root())})
+                         "scratch_dir": str(self.data_dir / "analysis")})
         except Exception as exc:
             self.log.append(str(exc))
 
