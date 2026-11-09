@@ -1,4 +1,20 @@
+<p align="center"><img src="assets/fauxphonic-icon.svg" width="88" alt="Fauxphonic icon"></p>
+
 # Fauxphonic
+
+**Clean up spoken-word recordings, compare the result, and export with measured loudness checks.**
+
+[Download for Windows](https://github.com/Lipton1010/Fauxphonic/releases/tag/v0.2.3) · [First session](#first-session) · [Evidence and limits](#evidence-and-limits) · [Build from source](#development)
+
+![Fauxphonic workflow: import local recordings, analyze and preview at matched loudness, then export new audio with a measurement report](docs/portfolio/workflow.svg)
+
+*Workflow illustration, not a screenshot or an audio-quality comparison.*
+
+- **Local by design.** Native Windows interface and CPU audio worker; no cloud upload during processing.
+- **Compare before committing.** Analyze tracks and build an A/B preview at matched loudness.
+- **Keep the originals.** Export to new files and inspect the post-encode measurement report.
+
+**Available now:** [v0.2.3 installer and portable build](https://github.com/Lipton1010/Fauxphonic/releases/tag/v0.2.3), for supported 64-bit Intel/AMD Windows systems. The installer is unsigned. See platform requirements and limitations below.
 
 A native Windows application for local spoken-word cleanup and mastering. Audio processing runs in a separate CPU worker. No browser, account, subscription, cloud upload, GPU setup or runtime download is required.
 
