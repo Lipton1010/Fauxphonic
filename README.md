@@ -4,17 +4,19 @@ A native Windows application for local spoken-word cleanup and mastering. Audio 
 
 ## Install and launch
 
-Double-click `dist/installers/Fauxphonic-0.2.2-Setup.exe`, then open Fauxphonic from the Start menu or desktop shortcut. Installation is per user and includes the worker, codecs and pinned activity model. The installer is unsigned. Windows may show an unknown-publisher warning.
+Download the current [Fauxphonic 0.2.3 release](https://github.com/Lipton1010/Fauxphonic/releases/tag/v0.2.3):
 
-For the Google Drive delivery, download the whole release folder as a ZIP and extract it first. Run `Fauxphonic-0.2.2-Setup.exe` with both `.bin` data files beside it. This is the same full application in Inno Setup's standard disk-spanning format.
+- **Installer:** download [Fauxphonic-0.2.3-Setup.exe](https://github.com/Lipton1010/Fauxphonic/releases/download/v0.2.3/Fauxphonic-0.2.3-Setup.exe), double-click it, then open Fauxphonic from the Start menu or desktop shortcut. This is a single-file installer; no separate `.bin` files are needed. Installation is per user and includes the worker, codecs and pinned activity model.
+- **Portable:** download [Fauxphonic-0.2.3-Windows-portable.zip](https://github.com/Lipton1010/Fauxphonic/releases/download/v0.2.3/Fauxphonic-0.2.3-Windows-portable.zip), extract the entire ZIP, then open `Fauxphonic/Fauxphonic.exe` inside the extracted folder. Keep the entire folder together.
+- **Checksums:** [SHA256SUMS.txt](https://github.com/Lipton1010/Fauxphonic/releases/download/v0.2.3/SHA256SUMS.txt) contains the SHA-256 hashes for both downloads.
 
-For portable use, double-click `dist/Fauxphonic/Fauxphonic.exe` and keep the entire folder together. Do not use the withdrawn 0.1.0 installer. Close and uninstall 0.1.0 before installing 0.2.2; recordings, projects and application data remain intact.
+The installer is unsigned. Windows may show an unknown-publisher warning. Do not use the withdrawn 0.1.0 installer. Close and uninstall 0.1.0 before installing 0.2.3; recordings, projects and application data remain intact.
 
-The supported platform is 64-bit Intel/AMD Windows 10 (1809+) or Windows 11 with Media Foundation. Windows N needs the Microsoft Media Feature Pack; Fauxphonic does not install system components. Actual release evidence and the exact tested artifact hashes are in `docs/STATUS.md`.
+The supported platform is 64-bit Intel/AMD Windows 10 (1809+) or Windows 11 with Media Foundation. Windows N needs the Microsoft Media Feature Pack; Fauxphonic does not install system components.
 
-Version 0.2.2 fixes playback loading/resume, mastering convergence, damaged-WAVE validation, silent-file reporting, stale A/B results and queued output collisions. Cleanup uses a measured stationary noise profile, de-essing adapts to recording level, and leveler defaults provide more correction. Cleanup can explicitly bypass when no suitable noise-only sample is found. The app uses a teal waveform F icon with a brass signal accent on deep navy; see [visual identity](docs/visual_identity.md).
+Version 0.2.3 fixes waveform analysis when a separate data directory is selected: analysis scratch stays within that directory. It also includes the 0.2.2 fixes for playback loading/resume, mastering convergence, damaged-WAVE validation, silent-file reporting, stale A/B results and queued output collisions. Cleanup uses a measured stationary noise profile, de-essing adapts to recording level, and leveler defaults provide more correction. Cleanup can explicitly bypass when no suitable noise-only sample is found. The app uses a teal waveform F icon with a brass signal accent on deep navy; see [visual identity](docs/visual_identity.md).
 
-See `docs/STATUS.md` for the exact current build and verification status. Older installers do not contain these fixes.
+The release page describes the current downloads and verification. `docs/STATUS.md` contains historical build evidence. Paths such as `dist/installers/` and `dist/Fauxphonic/` are developer build outputs, not downloads included with a source checkout; see [Development](#development) if building from source.
 
 ## First session
 
